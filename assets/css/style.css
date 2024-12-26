@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: "Mulish", sans-serif; */
+    
+}
+.fab{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color:#ffffff;
+  position: fixed;
+  top: 80%;
+  left: 90%;
+  z-index: 2;
+  
+}
+.fab-icon{
+  color: rgb(0, 0, 0);
+  position: relative;
+  left: 12px;
+  top: 10px;
+}
+a{
+  font-family: "Mulish, sans-serif";
+   font-size: 11px;
+    letter-spacing: 1.9px;
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+  color: rgb(199, 62, 62);
+}
+.nav-link:hover{
+  color: rgb(199, 62, 62);
+}
+.nav-link{
+  font-family: "Mulish, sans-serif";
+  font-size: 11px;
+   letter-spacing: 1.9px;
+   text-decoration: none;
+   color: white;
+}
+.box{
+  background-color: rgb(52, 24, 24);
+  width: 256px;
+  height: 341px;
+  position: relative;
+  opacity: 0;
+  transition: ease-in 0.4s;
+  cursor: pointer;
+
+}
+.image{
+  width: 256px;
+  height: 341px;
+  position: absolute;
+}
+.box:hover{
+  opacity: 0.5;
+}
+.gradient-custom {
+   
+    opacity: 85%; 
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(108,56,56,1) 100%);
+
+  }
+  .carousel-caption{
+    /* bottom: 220px; */
+    font-family: "Playfair Display", serif;
+    font-size: 60px;
+  }
+  .line1{
+    border: solid white 2px;
+    border-right: none;
+    border-bottom: none;
+    border-top: none;
+    height: 70px;
+    /* position: relative;
+    left: 450px; */
+  }
+  .nav-link{
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2.8px;
+    font-family: "Mulish", sans-serif;
+    text-transform: uppercase;
+  }
+  .title{
+    font-family: "Playfair Display", serif;
+    font-size: 45px;
+    /* position: relative;
+    right: 220px; */
+  }
+  .card-title{
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+  }
+  .card-text{
+    font-family: "Mulish", sans-serif;
+    font-size: 14px;
+  }
+  .part2-works{
+    padding-top: 100px;
+  }
+  .about-title{
+    padding-left: 400px;
+    padding-top: 100px;
+    
+  }
+  .button-about{
+    padding-left: 400px;
+    padding-top: 100px;
+  }
+  .contact-left{
+    background-image: url(../images/william-thomas-ny6tO4ItOEY-unsplash.jpg);
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
+    background-size:cover ;
+    
+  }
+  .contact-left{
+    padding: 250px;
+  }
+  input{
+background-color:#efede5 !important;
+border-radius: 0px !important;
+padding: 15px !important;
+  }
+  textarea{
+    background-color: #efede5 !important;
+border-radius: 0px !important;
+  }
+  .contact-right{
+    padding-right: 200px;
+    padding-left: 100px;
+  }
+  .btn{
+    border-radius: 0px !important;
+  }
+  @media screen and (max-width:500px){
+    .about-title{
+        padding-left: 0px;
+        padding-top: 0px;
+        
+      }
+      .button-about{
+        padding-left: 0px;
+        padding-top: 0px;
+        padding-bottom: 50px;
+      }
+      .contact-left{
+        padding: 20px;
+      }
+      .contact-right{
+        padding-right: 20px;
+        padding-left: 20px;
+      }
+      .title{
+        font-family: "Playfair Display", serif;
+        font-size: 35px;
+        /* position: relative;
+        right: 220px; */
+      }
+       /* fab */
+     .fab{
+      position:fixed;
+      top: 90%;
+      left: 85%;
+  } 
+  }
+ 
